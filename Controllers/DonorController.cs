@@ -60,9 +60,6 @@ namespace BloodBank.API.Controllers
         [HttpDelete("{id}")]
 
         public IActionResult Delete(int id)
-
-
-
         {
             _donorService.Delete(id);
 
